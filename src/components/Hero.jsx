@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import heroImg from '../assets/hero.jpg';
 
 const roles = ['Frontend Developer', 'UI/UX Enthusiast', 'CS Student'];
 
@@ -197,8 +198,8 @@ export default function Hero() {
               View Projects
             </button>
             <a
-              href="/public/Joemari_Cuyacot_Resume.docx" target="_blank" rel="noopener noreferrer"
-              download="Joemari_Cuyacot_Resume.docx"
+              href="/personal-portfolio/resume.docx" target="_blank" rel="noopener noreferrer"
+              download="Joemari-Cuyacot-Resume.docx"
               style={{
                 padding: '14px 32px', borderRadius: '8px',
                 background: 'transparent',
@@ -206,7 +207,7 @@ export default function Hero() {
                 fontWeight: 600, fontSize: '0.95rem', letterSpacing: '0.04em',
                 border: '1px solid rgba(96,81,155,0.5)',
                 display: 'inline-flex', alignItems: 'center', gap: '8px',
-                transition: 'all 0.3s', cursor: 'pointer'
+                transition: 'all 0.3s', cursor: 'pointer', textDecoration: 'none'
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.background = 'rgba(96,81,155,0.15)';
@@ -240,7 +241,7 @@ export default function Hero() {
                   background: 'rgba(49,50,62,0.8)', border: '1px solid rgba(96,81,155,0.2)',
                   fontSize: '0.82rem', color: 'var(--light)', fontFamily: 'var(--font-body)',
                   display: 'inline-flex', alignItems: 'center', gap: '6px',
-                  transition: 'all 0.3s'
+                  transition: 'all 0.3s', textDecoration: 'none'
                 }}
                 onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(96,81,155,0.6)'; e.currentTarget.style.color = 'var(--white)'; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(96,81,155,0.2)'; e.currentTarget.style.color = 'var(--light)'; }}
@@ -276,8 +277,9 @@ export default function Hero() {
               zIndex: 0
             }} />
             {/* Profile image */}
-            <img
-              src="/Hero-portrait.jpg"
+            
+            <img 
+              src={heroImg}
               alt="Profile"
               style={{
                 width: 'clamp(220px, 35vw, 420px)',

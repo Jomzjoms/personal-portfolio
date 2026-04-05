@@ -3,10 +3,10 @@ import React, { useEffect, useRef, useState } from 'react';
 const skills = [
   { name: 'HTML5', level: 90, color: '#e34c26' },
   { name: 'CSS3', level: 85, color: '#264de4' },
-  { name: 'JavaScript', level: 70, color: '#f7df1e' },
-  { name: 'React', level: 65, color: '#61dafb' },
+  { name: 'JavaScript', level: 65, color: '#f7df1e' },
+  { name: 'React', level: 55, color: '#61dafb' },
   { name: 'PHP', level: 60, color: '#8892bf' },
-  { name: 'MySQL', level: 65, color: '#00758f' },
+  { name: 'MySQL', level: 50, color: '#00758f' },
   { name: 'Bootstrap', level: 30, color: '#7952b3' },
   { name: 'Git', level: 40, color: '#f05032' },
 ];
