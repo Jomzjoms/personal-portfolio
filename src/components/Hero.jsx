@@ -198,7 +198,7 @@ export default function Hero() {
               View Projects
             </button>
             <a
-              href="/resume.docx" target="_blank" rel="noopener noreferrer"
+              href="/Joemari-Cuyacot-Resume.docx" target="_blank" rel="noopener noreferrer"
               download="Joemari-Cuyacot-Resume.docx"
               style={{
                 padding: '14px 32px', borderRadius: '8px',
