@@ -5,8 +5,8 @@ const skills = [
   { name: 'CSS3', level: 85, color: '#264de4' },
   { name: 'JavaScript', level: 65, color: '#f7df1e' },
   { name: 'React', level: 55, color: '#61dafb' },
-  { name: 'PHP', level: 60, color: '#8892bf' },
-  { name: 'MySQL', level: 50, color: '#00758f' },
+  { name: 'PHP', level: 50, color: '#8892bf' },
+  { name: 'UI/UX', level: 50, color: '#00758f' },
   { name: 'Bootstrap', level: 30, color: '#7952b3' },
   { name: 'Git', level: 40, color: '#f05032' },
 ];
@@ -103,7 +103,7 @@ export default function About() {
             {/* Info grid */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
               {[
-                { label: 'Location', value: 'Manila, Philippines' },
+                { label: 'Location', value: 'Pasig, Metro Manila, Philippines' },
                 { label: 'University', value: 'Arellano University' },
                 { label: 'Year Level', value: '4th Year' },
                 { label: 'Program', value: 'BS Computer Science' },

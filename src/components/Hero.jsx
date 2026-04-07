@@ -296,18 +296,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div style={{
-        position: 'absolute', bottom: 36, left: '50%', transform: 'translateX(-50%)',
-        display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, zIndex: 1,
-        opacity: visible ? 0.6 : 0, transition: 'opacity 1s 1s'
-      }}>
-        <span style={{ fontSize: '0.72rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--light)' }}>Scroll</span>
-        <div style={{
-          width: 1, height: 48,
-          background: 'linear-gradient(to bottom, var(--purple), transparent)',
-          animation: 'scrollPulse 2s ease-in-out infinite'
-        }} />
-      </div>
+
 
       <style>{`
         @keyframes blink { 50% { opacity: 0; } }
