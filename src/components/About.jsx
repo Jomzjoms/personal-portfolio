@@ -6,9 +6,9 @@ const skills = [
   { name: 'JavaScript', level: 65, color: '#f7df1e' },
   { name: 'React', level: 55, color: '#61dafb' },
   { name: 'PHP', level: 50, color: '#8892bf' },
-  { name: 'UI/UX', level: 50, color: '#00758f' },
-  { name: 'Bootstrap', level: 30, color: '#7952b3' },
-  { name: 'Git', level: 40, color: '#f05032' },
+  { name: 'UI/UX', level: 85, color: '#00758f' },
+  { name: 'Bootstrap', level: 40, color: '#7952b3' },
+  { name: 'Git', level: 45, color: '#f05032' },
 ];
 
 const techTags = ['HTML', 'CSS', 'JavaScript', 'React', 'PHP', 'MySQL', 'Bootstrap', 'Git', 'Figma', 'VS Code', 'Responsive Design'];

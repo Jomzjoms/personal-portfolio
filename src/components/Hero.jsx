@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import heroImg from '../assets/hero.jpg';
 
-const roles = ['Frontend Developer', 'UI/UX Enthusiast', 'CS Student'];
+const roles = ['Frontend Developer', 'UI/UX Enthusiast', 'Computer Science Student'];
 
 export default function Hero() {
   const [roleIdx, setRoleIdx] = useState(0);
@@ -135,7 +135,7 @@ export default function Hero() {
             background: 'rgba(96,81,155,0.15)', border: '1px solid rgba(96,81,155,0.3)',
             borderRadius: 100, padding: '6px 16px', marginBottom: '24px'
           }}>
-            <span style={{ width: 7, height: 7, borderRadius: '50%', background: '#60519b', display: 'block', animation: 'pulse 2s infinite' }} />
+            <span style={{ width: 7, height: 7, borderRadius: '50%', background: '#3fc620', display: 'block', animation: 'pulse 2s infinite' }} />
             <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.82rem', color: 'var(--light)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
               Available for Internship
             </span>
@@ -230,10 +230,10 @@ export default function Hero() {
           {/* Social chips */}
           <div style={{ display: 'flex', gap: '12px', marginTop: '36px', flexWrap: 'wrap' }}>
             {[
-              { label: 'Gmail', icon: '✉', href: 'mailto:joemaricuyacot8@gmail.com' },
-              { label: 'GitHub', icon: '⌥', href: 'https://github.com/Jomzjoms' },
-              { label: 'Facebook', icon: 'F', href: 'https://www.facebook.com/joemari.pisan/' },
-              { label: 'Instagram', icon: '📷', href: 'https://www.instagram.com/z_mojz' },
+              { label: 'Gmail', href: 'mailto:joemaricuyacot8@gmail.com' },
+              { label: 'GitHub', href: 'https://github.com/Jomzjoms' },
+              { label: 'Facebook', href: 'https://www.facebook.com/joemari.pisan/' },
+              { label: 'Instagram', href: 'https://www.instagram.com/z_mojz' },
             ].map(s => (
               <a key={s.label} href={s.href} target="_blank" rel="noreferrer"
                 style={{

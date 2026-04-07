@@ -38,7 +38,7 @@ const contactInfo = [
       </svg>
     ),
     label: 'Location',
-    value: 'Manila, Philippines',
+    value: 'Pasig City, Metro Manila, Philippines',
     href: null,
   }
 ];
@@ -194,7 +194,7 @@ export default function Contact() {
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--white)', fontSize: '1rem' }}>Joms</span>
         </div>
         <p style={{ color: 'rgba(191,192,209,0.35)', fontSize: '0.8rem', fontFamily: 'var(--font-body)' }}>
-          © {new Date().getFullYear()} Joemari Cuyacot · Designed & Built with ♥
+          © {new Date().getFullYear()} Joemari Cuyacot · Designed & Built with Passion
         </p>
         <div style={{ display: 'flex', gap: '16px' }}>
           {['About', 'Projects', 'Contact'].map(link => (
